@@ -17,11 +17,6 @@ x = 220
 y = 220
 
 
-
-
-
-
-
 gameExit = False
 
 while not gameExit:
@@ -48,17 +43,6 @@ while not gameExit:
     
     pygame.display.update()
     clock.tick(60)
-
-
-
-
-
-
-                
-            
-
-    
-
 
 
 
