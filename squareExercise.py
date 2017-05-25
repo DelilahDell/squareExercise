@@ -94,7 +94,7 @@ class Game():
     handle their events and update themselves
     """
     self.handleEvents()
-    for player in players:
+    for player in self.players:
       player.update()
     self.draw()
     self.clock.tick(60)
